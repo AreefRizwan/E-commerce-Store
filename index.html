@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Name | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background: #111827;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border: 3px solid #fff;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 3rem 1rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            color: #111827;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+        }
+
+        .card {
+            background: #fff;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #e5e7eb;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .projects a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .projects a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #111827;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        @media (min-width: 768px) {
+            .two-column {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://via.placeholder.com/150" alt="Profile Photo Placeholder">
+    <h1>Your Name</h1>
+    <p>Your Professional Title</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About</h2>
+    <div class="card">
+        <p>
+            Write a short professional summary about yourself here. 
+            Highlight your background, expertise, and career goals.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card skills-list">
+        <div class="skill">Skill One</div>
+        <div class="skill">Skill Two</div>
+        <div class="skill">Skill Three</div>
+        <div class="skill">Skill Four</div>
+        <div class="skill">Skill Five</div>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+        <h3>Job Title - Company Name</h3>
+        <p><em>Year – Year</em></p>
+        <p>
+            Describe your responsibilities and achievements in this role.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Job Title - Company Name</h3>
+        <p><em>Year – Year</em></p>
+        <p>
+            Describe your responsibilities and achievements in this role.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="card projects">
+        <h3>Project Title</h3>
+        <p>
+            Brief description of the project. Explain what it does and your role in it.
+        </p>
+        <p>
+            <a href="#" target="_blank">Live Demo</a> |
+            <a href="#" target="_blank">Source Code</a>
+        </p>
+    </div>
+
+    <div class="card projects">
+        <h3>Project Title</h3>
+        <p>
+            Brief description of the project. Explain what it does and your role in it.
+        </p>
+        <p>
+            <a href="#" target="_blank">Live Demo</a> |
+            <a href="#" target="_blank">Source Code</a>
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: your.email@example.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>
+            LinkedIn: <a href="#" target="_blank">Your LinkedIn Profile</a><br>
+            GitHub: <a href="#" target="_blank">Your GitHub Profile</a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Your Name. All Rights Reserved.
+</footer>
+
+</body>
+</html>
